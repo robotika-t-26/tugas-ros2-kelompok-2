@@ -1,0 +1,91 @@
+# Konfigurasi per anggota (slot dan warna pena)
+# Pemilik: Anggota 6 (Adriel Mahira Dharma - 5025241097)
+# Layout 2 baris x 3 kolom, sudah dicek dengan digits.check_layout():
+# angka 2 digit (lebar 2.5, tinggi 2.0) tidak keluar kanvas dan tidak overlap.
+# draw_step: panjang langkah saat menggambar (kecil = lebih lambat, lebih halus).
+# Nilai float WAJIB ditulis dengan titik desimal (1.0, bukan 1).
+# Kunci teratas (member1 dst.) harus sama dengan `name` node di launch file.
+
+member1:
+  ros__parameters:
+    member_id: 1
+    total_members: 6
+    max_number: 12
+    slot_x: 1.0
+    slot_y: 7.0
+    pen_r: 255
+    pen_g: 0
+    pen_b: 0
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
+
+member2:
+  ros__parameters:
+    member_id: 2
+    total_members: 6
+    max_number: 12
+    slot_x: 4.5
+    slot_y: 7.0
+    pen_r: 255
+    pen_g: 165
+    pen_b: 0
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
+
+member3:
+  ros__parameters:
+    member_id: 3
+    total_members: 6
+    max_number: 12
+    slot_x: 8.0
+    slot_y: 7.0
+    pen_r: 255
+    pen_g: 255
+    pen_b: 0
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
+
+member4:
+  ros__parameters:
+    member_id: 4
+    total_members: 6
+    max_number: 12
+    slot_x: 1.0
+    slot_y: 2.0
+    pen_r: 0
+    pen_g: 200
+    pen_b: 0
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
+
+member5:
+  ros__parameters:
+    member_id: 5
+    total_members: 6
+    max_number: 12
+    slot_x: 4.5
+    slot_y: 2.0
+    pen_r: 0
+    pen_g: 120
+    pen_b: 255
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
+
+member6:
+  ros__parameters:
+    member_id: 6
+    total_members: 6
+    max_number: 12
+    slot_x: 8.0
+    slot_y: 2.0
+    pen_r: 200
+    pen_g: 0
+    pen_b: 255
+    pen_width: 3
+    scale: 1.0
+    draw_step: 0.05
