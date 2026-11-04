@@ -14,7 +14,7 @@ class Member1(RelayNode):
         return True
 
     def before_draw(self, number: int) -> None:
-        # Angka pertama siklus 2 (N+1): bersihkan kanvas dulu
+
         if number == self.total_members + 1:
             transition_to_next_cycle(self.turtle)
 
