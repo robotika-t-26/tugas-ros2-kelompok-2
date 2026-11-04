@@ -1,7 +1,7 @@
-"""Node Anggota 2 - Slot 2.
+# Node Anggota 2 - Slot 2.
 
-Anggota: Via Hana Nurma Putri - 5025241048
-"""
+# Anggota: Via Hana Nurma Putri - 5025241048
+
 from digit_relay.relay_node import RelayNode, run
 
 
